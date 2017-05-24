@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?android:attr/selectableItemBackground"
+    android:elevation="15dp"
+    android:layout_margin="@dimen/tile_padding"
+    android:id="@+id/cv_item">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/photo"
+    >
+    <ImageView
+        android:id="@+id/iv_tile_picture"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tile_height"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/egyptback" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tile_height"
+        android:alpha="0.3"
+        android:background="#424242" />
+    <TextView
+        android:id="@+id/tv_tile_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tile_height"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:text="Pyramids"
+        android:textColor="@color/white"
+        android:textSize="@dimen/article_titles" />
+
+</RelativeLayout>
+    <ProgressBar
+        android:paddingTop="5dp"
+        android:layout_below="@id/photo"
+        android:id="@+id/pr_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:max="100"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:indeterminate="false"
+          />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1074559661044",
+    "firebase_url": "https://egypt-to-visit.firebaseio.com",
+    "project_id": "egypt-to-visit",
+    "storage_bucket": "egypt-to-visit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074559661044:android:74e250dbbaae6b73",
+        "android_client_info": {
+          "package_name": "com.example.mahmoudshahen.egypttovisit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074559661044-58apbp6skn1vrun6cmj35sf4gdsjj8fe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLCmsgS9d6mSFkVsreUSc1S7t1Eb-kwQU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
